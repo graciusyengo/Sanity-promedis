@@ -1,6 +1,5 @@
 // schemas/doctor.js
 import { defineField, defineType } from 'sanity';
-
 export default defineType({
   name: 'doctor',
   title: 'Doctor',
@@ -72,6 +71,7 @@ export default defineType({
       ],
     }),
   ],
+  
   preview: {
     select: {
       title: 'name',
